@@ -101,7 +101,7 @@
       </div>
     </nav>
 
-    <div class="cover">
+    <section class="cover">
       <div class="container">
         <h1>
           <span>E</span>very <span>P</span>erson <span>I</span>s
@@ -113,12 +113,49 @@
         </h2>
         <div class="divider"></div>
         <div class="btn-container">
-          <button class="btn btn-purple">Our Mission</button>
-          <button class="btn btn-light">Donate</button>
+          <a href="#aims" class="btn btn-purple">#EPICReform</a>
+          <a href="./donate.html" class="btn btn-light">Donate</a>
         </div>
       </div>
       <div class="layer purple"></div>
-    </div>
+    </section>
+
+    <section id="aims">
+      <div class="section-header">
+        <h2>Creating #EPICReform</h2>
+        <div class="divider purple"></div>
+      </div>
+      <div class="container">
+        <div class="aim">
+          <img src="./assets/img/icon/find.svg" />
+          <h3>Identify</h3>
+          <h4>Medical Tourism</h4>
+          <p>
+            Identify treatment options regardless of location, and help patients
+            reach destinations which would not be otherwise possible.
+          </p>
+        </div>
+        <div class="aim">
+          <img src="./assets/img/icon/doctor.svg" />
+          <h3>Improve</h3>
+          <h4>Healthcare Reform</h4>
+          <p>
+            Improve the quality of healthcare through patient education and
+            common-sense solutions that are easily accepted and agreed upon.
+          </p>
+        </div>
+        <div class="aim">
+          <img src="./assets/img/icon/inspire.svg" />
+          <h3>Inspire</h3>
+          <h4>Inspiring Moments</h4>
+          <p>
+            Share amazing stories and videos of health outcomes and
+            life-changing remissions to inspire, rejuvenate, and motivate ailing
+            patients.
+          </p>
+        </div>
+      </div>
+    </section>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -135,5 +172,11 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]', { offset: 50 });
+    </script>
+    <script src="./scripts/shared.js"></script>
   </body>
 </html>

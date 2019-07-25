@@ -45,3 +45,56 @@
 .cover .container h2 {
   margin-top: 0.33rem;
 }
+
+#aims .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  #aims .container {
+    flex-direction: row;
+  }
+}
+
+#aims .aim {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0.33rem;
+  max-width: 300px;
+}
+
+#aims .aim img {
+  max-width: 222px;
+  margin-left: auto;
+  margin-bottom: -2rem;
+}
+
+#aims .aim h3 {
+  color: rgb(73, 59, 92);
+  font-weight: bold;
+  margin: 1rem 0 0.1rem 0;
+}
+
+#aims .aim h4 {
+  font-size: 1.33rem;
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  #aims .aim img {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 900px) {
+  #aims .aim {
+    display: flex;
+    margin: 2rem;
+  }
+}

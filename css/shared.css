@@ -4,15 +4,18 @@ shared
 
 */
 
-nav {
-  background-color: rgba(88, 22, 173, 1);
+nav,
+nav.active {
+  background-color: rgba(88, 22, 173, 0.88);
 }
 
-nav a {
+nav a,
+nav.active a {
   color: white !important;
 }
 
-.dropdown-menu a {
+nav .dropdown-menu a,
+nav.active .dropdown-menu a {
   color: rgba(88, 22, 173, 1) !important;
 }
 
@@ -55,4 +58,16 @@ nav a {
   height: 2px;
   width: 100px;
   margin: 0.33rem auto 1rem auto;
+}
+
+.divider.purple {
+  background-color: rgba(88, 22, 173, 1);
+  height: 2px;
+  width: 100px;
+  margin: 0.33rem auto 1rem auto;
+}
+
+.section-header {
+  padding: 2rem 0.33rem 1rem 0.33rem;
+  text-align: center;
 }

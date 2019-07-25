@@ -1,0 +1,12 @@
+.cover {
+  padding-top: 64px;
+  min-height: 77vh;
+  position: relative;
+}
+
+.cover .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
